@@ -1,0 +1,48 @@
+div.gallery{
+    width: 182px;
+    border: 1px solid lightblue;
+    float: left;
+    margin: 2px;
+    transition:transform 2s,border-radius 2s, background 2s;/*margin-top 2s*/
+}
+div.gallery:hover{
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background: lightblue;
+    /* margin-top: 100px; */
+    transform: rotateZ(0deg);
+}
+div.gallery img{
+    width: 180px;
+    height: 180px;
+    opacity: 0.5;
+    filter: blur(2px);
+    transition: opacity 2s, border-radius 2s,filter 2s;
+}
+div.gallery img:hover{
+    border: 1px solid blue;
+    opacity: 1.0;
+    border-radius: 50%;
+    filter: blur(0px);
+}
+div.gallery p{
+    text-align: center;
+    padding: 15px;
+    transition: font-family 1s, color 1s,font-size 1s;
+}
+div.gallery p{
+    display:none; 
+    padding: 15px;
+    transition:color 1s,font-weight 1s,font-size 1s;
+}
+div.gallery p:hover{
+    color: red;
+    font-size: 18px;
+    font-size: fantasy;
+    text-align: center;
+   
+
+}
+div.gallery:hover p{
+    display:block; 
+}
