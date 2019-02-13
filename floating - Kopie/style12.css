@@ -1,0 +1,40 @@
+/*  acsses to the a-element with the class highlight */
+/* a.highlight:hover {
+color: red;
+} */
+
+a:link {
+color: red;
+}
+/* a:visited */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+/* selcted link */
+a:active {
+    color: rgb(226, 119, 119);
+
+}
+
+p {
+    display: none;
+}
+div:hover p{
+    display: block
+}
+
+div {
+    background-color: chartreuse;
+    color:rgb(211, 27, 27);
+    padding: 30px;
+    text-align: center;
+}
+
+div:hover {
+    background-color: violet;
+}
